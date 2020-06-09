@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../services/authorization/auth.service';
 
 @Component({
-  selector: 'app-nav',
-  templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css']
+  selector: 'app-navbar',
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.css']
 })
 export class NavComponent implements OnInit {
   model: any = {};
